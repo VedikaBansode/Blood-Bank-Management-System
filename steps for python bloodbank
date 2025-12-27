@@ -1,0 +1,23 @@
+1. install required things (python3 etc)
+
+2. cd /path/to/project
+
+3. create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+4. install requirements
+pip install -r requirements.txt
+
+5. run migrations
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+6. start server
+python3 manage.py runserver
+    it'll run at http://127.0.0.1:8000/
+
+7. create admin acc
+python3 manage.py createsuperuser
+
+
